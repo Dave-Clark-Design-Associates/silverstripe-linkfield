@@ -25,6 +25,7 @@ use SilverShop\HasOneField\HasOneButtonField;
  *
  * @package silverstripe-linkfield
  */
+#[AllowDynamicProperties]
 class LinkField extends FormField
 {
     /**
